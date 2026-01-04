@@ -1,6 +1,6 @@
 # CF-Worker-Uptime
 
-<img width="1199" height="3567" alt="image" src="https://github.com/user-attachments/assets/8e07b92b-a982-4c8e-9ad3-0385605fccb9" />
+<img width="1083" height="1064" alt="image" src="https://github.com/user-attachments/assets/06ec0336-66e4-4f3a-bd28-6b46a49fa180" />
 
 
 A high-performance, serverless uptime monitor running on Cloudflare Workers and D1 Database.
