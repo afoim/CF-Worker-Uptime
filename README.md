@@ -1,7 +1,6 @@
 # CF-Worker-Uptime ☁️
 
 [![Deploy to Cloudflare Workers](https://img.shields.io/badge/Deploy%20to-Cloudflare%20Workers-orange?style=flat-square&logo=cloudflare)](https://workers.cloudflare.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
 一个运行在 Cloudflare Workers 和 D1 数据库上的高性能、无服务器（Serverless）状态监控工具。
 无需购买服务器，利用 Cloudflare 强大的全球边缘网络监控您的网站和 API。
@@ -221,7 +220,3 @@ Cloudflare Workers 的 Cron Triggers 默认配置在 `wrangler.jsonc` 中：
 ```
 
 如果需要修改频率，请更改此处的 Cron 表达式。
-
-## License
-
-MIT
