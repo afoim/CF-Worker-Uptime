@@ -64,7 +64,7 @@
                              <div v-for="(check, index) in getRecentChecks(monitor)" :key="index"
                                   class="flex-1 rounded-[1px]"
                                   :class="getCheckColor(check)"
-                                  :title="new Date(check.timestamp).toLocaleString() + ' - ' + check.status + ' (' + check.latency + 'ms)'">
+                                  :title="check ? (new Date(check.timestamp).toLocaleString() + ' - ' + check.status + ' (' + check.latency + 'ms)') : 'No Data'">
                              </div>
                         </div>
 
